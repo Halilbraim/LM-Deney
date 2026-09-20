@@ -1,29 +1,39 @@
-# 🧪 LM-Deney (Language Model Experiments)
+# 🧪 LM-Deney
 
-Yapay zeka ve Büyük Dil Modelleri (LLM) üzerine yapılan deneyleri, test senaryolarını ve model çıktı analizlerini içeren araştırma projesi.
-
----
-
-## 📌 Özellikler
-
-- 🤖 **Model Deneyleri:** Farklı istem (prompt) teknikleri ve model parametrelerinin sınanması.
-- 📊 **Çıktı Analizi:** Modellerin yanıt performanslarının ve doğruluk oranlarının karşılaştırılması.
-- 🔬 **Modüler Yapı:** Yeni deney senaryolarının ve veri setlerinin kolayca eklenebilmesi.
+> Dil modelleri (Large Language Models), yapay zeka deneyleri ve istem mühendisliği (prompt engineering) üzerine yapılan deneysel testleri ve prototipleri barındıran araştırma ve geliştirme deposu.
 
 ---
 
-## 🛠️ Kullanılan Teknolojiler
+## 📌 Proje Hakkında
 
-- **Dil / Ortam:** Python (3.10+)
-- **Kütüphaneler:** OpenAI / Hugging Face Transformers / PyTorch (deney içeriğine göre)
-- **Versiyon Kontrol:** Git & GitHub
+**LM-Deney**, büyük dil modellerinin (LLM) yeteneklerini, sınırlarını ve çıktı kalitelerini test etmek amacıyla kurulmuş bir deneysel çalışma alanıdır. 
+
+Bu projede; farklı istem teknikleri, model yanıt süreleri, bağlam yönetimi, yerel dil modellerinin (Local LLMs) performansı ve yapay zekanın çeşitli senaryolara verdiği yanıtlar incelenmekte ve prototiplenmektedir.
 
 ---
 
-## 💻 Kurulum ve Çalıştırma
+## ✨ Öne Çıkan Özellikler
 
-Projeyi yerelde çalıştırmak ve deneyleri tekrarlamak için adımları takip edin:
+- 🔬 **İstem Deneyleri (Prompt Engineering):** Farklı sistem talimatları ve zincirleme düşünme (Chain-of-Thought) yöntemlerinin karşılaştırmalı testleri.
+- 🤖 **Model Karşılaştırmaları:** Yerel (LM Studio, Ollama vb.) ve API tabanlı modellerin performans ve çıktı analizleri.
+- 📑 **Yapılandırılmış Test Senaryoları:** Kod üretimi, metin özetleme, veri çıkarma ve mantık yürütme testleri.
+- ⚡ **Hızlı Prototipleme:** Yapay zeka entegrasyonları için esnek ve hızlı test ortamı.
 
-1. Depoyu klonlayın:
-   ```bash
-   git clone [https://github.com/Halilbraim/LM-Deney.git](https://github.com/Halilbraim/LM-Deney.git)
+---
+
+## 🛠️ Teknolojiler ve Araçlar
+
+- **Diller:** Python / JavaScript
+- **Çalışma Ortamı & Araçlar:** LM Studio, NotebookLM, VS Code
+- **Sürüm Kontrolü:** Git & GitHub
+
+---
+
+## 📁 Proje Yapısı
+
+```text
+LM-Deney/
+├── prompts/          # Test edilen sistem istemleri ve şablonlar
+├── experiments/      # Deney sonuçları, çıktı kayıtları ve analizler
+├── scripts/          # Model testlerini otomatize eden küçük kodlar
+└── README.md         # Proje belgelendirme dosyası
